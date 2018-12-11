@@ -37,13 +37,37 @@ p > a {
     color: #4aaaa5;
 }
 
+.contact-button {
+    width: 117px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+button:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
+}
+
+textarea {
+    resize: none;
+}
+
 #nav-external {
   background-color: white;
+  border-bottom: 2px solid #cccccc;
+  height: 92px;
 }
 
 nav {
   max-width: 960px;
 }
+
+.navbar-expand-lg, .navbar-brand {
+  padding: 0;
+} 
 
 main {
   max-width: 960px;
