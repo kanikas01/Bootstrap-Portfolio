@@ -1,6 +1,6 @@
 document.write(`
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">Copyright &copy;</span>
+      <span>Copyright &copy;</span>
     </div>
   </footer>`);
