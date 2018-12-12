@@ -102,17 +102,24 @@ textarea {
 
 .portfolio-item {
     padding: 0;
+    width: 100%;
+    min-width: 226px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
+.portfolio-row {
+    justify-content: space-around;
+}
+
 .image-text-overlay {
+    display: block;
     width: 276px;
     height: 3.75rem;
     max-width: 100%;
     color: #ffffff;
     background-color: #4aaaa5;
-    overflow: hidden;
+    overflow: inherit;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -159,6 +166,10 @@ textarea {
 
     .navbar-toggler {
         border-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .portfolio-row {
+        justify-content: unset;
     }
 
     h1 {
