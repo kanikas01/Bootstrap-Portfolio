@@ -1,6 +1,6 @@
 document.write(`
   <div id="nav-external">
-    <nav class="navbar navbar-expand-lg navbar-dark mx-auto">
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-light mx-auto">
       <a class="navbar-brand col-9" href="index.html">
         <h1>Kurt Statham</h1>
       </a>
