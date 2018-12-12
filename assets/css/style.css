@@ -61,12 +61,12 @@ textarea {
   height: 92px;
 }
 
-nav {
+/* nav {
   max-width: 960px;
-}
+} */
 
 .navbar-expand-lg, .navbar-brand {
-  padding: 0;
+  padding-top: 0;
 } 
 
 main {
