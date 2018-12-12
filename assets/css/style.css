@@ -34,8 +34,8 @@ h1, h2 {
 
 h1 {
     font-size: 2rem;
-    color: #4aaaa5;
-    background-color: white;
+    color: white;
+    background-color: #4aaaa5;
     width: 275px;
     height: auto;
     text-align: center;
@@ -61,7 +61,7 @@ nav {
         color: #777777; 
     }
 
-.nav-external {
+#nav-external {
     background-color: #4aaaa5;
 }
 
@@ -110,8 +110,4 @@ textarea {
         max-width: 85%;
     }
 
-    h1 {
-        color: white;
-        background-color: #4aaaa5;
-    }
 }
