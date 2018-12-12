@@ -114,8 +114,8 @@ textarea {
     }
 
     #nav-external {
-    background-color: white;
-    border-bottom: 1px solid #cccccc;
+        background-color: white;
+        border-bottom: 1px solid #cccccc;
     }
 
     nav {
@@ -142,5 +142,4 @@ textarea {
         width: 17rem;
 
     }
-
 }
