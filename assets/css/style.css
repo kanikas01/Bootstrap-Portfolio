@@ -1,87 +1,15 @@
+/* Sticky footer styles */
+
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1rem;
-  color: #777777;
   margin-bottom: 60px;
-  background-image: url("../images/gravel.png");
 }
 
-h1, h2 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 2rem; 
-    font-weight: bold;
-    color: #4aaaa5;
-}
-
-h1 {
-    width: 285px;
-    height: 90px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding-top: 25px;
-}
-
-a {
-    text-decoration: unset;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
-p > a {
-    color: #4aaaa5;
-}
-
-.contact-button {
-    width: 117px;
-    height: 42px;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-button:hover {
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
-}
-
-textarea {
-    resize: none;
-}
-
-#nav-external {
-  background-color: white;
-  border-bottom: 2px solid #cccccc;
-  height: 92px;
-}
-
-/* nav {
-  max-width: 960px;
-} */
-
-.navbar-expand-lg, .navbar-brand {
-  padding-top: 0;
-} 
-
-main {
-  max-width: 960px;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  margin-bottom: 110px;
-}
-
-.contact {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-footer {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -92,3 +20,20 @@ footer {
   background-color: #666666;
   color: white;
 }
+
+/* END Sticky footer styles */
+
+h2 {
+  color: #4aaaa5;
+}
+
+p > a {
+    color: #4aaaa5;
+}
+
+nav {
+  color: white;
+  background-color: #4aaaa5;
+}
+
+
