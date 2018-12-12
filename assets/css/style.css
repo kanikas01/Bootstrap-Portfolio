@@ -60,6 +60,9 @@ nav {
 .nav-item > a{
         color: #777777; 
     }
+.navbar-toggler {
+    z-index: 1;
+}
 
 #nav-external {
     background-color: #4aaaa5;
