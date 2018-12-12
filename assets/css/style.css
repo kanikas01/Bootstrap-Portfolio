@@ -36,12 +36,12 @@ h1 {
     font-size: 2rem;
     color: white;
     background-color: #4aaaa5;
-    width: 275px;
     height: auto;
     text-align: center;
     margin: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    float: left;
 }
 
 h2 {
@@ -72,6 +72,10 @@ nav {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.navbar-brand {
+    padding-left: 0.5rem;
 }
 
 main {
@@ -132,6 +136,11 @@ textarea {
 
     .navbar-toggler {
         border-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    h1 {
+        width: 17rem;
+
     }
 
 }
