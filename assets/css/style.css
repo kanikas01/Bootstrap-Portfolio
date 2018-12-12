@@ -1,24 +1,24 @@
 /* Sticky footer styles */
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  padding-top: 25px;
-  text-align: center;
-  border-top: 8px solid #4aaaa5;
-  background-color: #666666;
-  color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    padding-top: 25px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: white;
 }
 
 /* END Sticky footer styles */
@@ -27,8 +27,25 @@ body {
     color: #777777;
 }
 
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4aaaa5;
+    background-color: white;
+    width: 275px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 h2 {
-  color: #4aaaa5;
+    color: #4aaaa5;
 }
 
 p > a {
@@ -36,10 +53,65 @@ p > a {
 }
 
 nav {
-  color: white;
-  background-color: #4aaaa5;
+    color: white !important;
+    background-color: #4aaaa5 !important;
+}
+
+.nav-item > a{
+        color: #777777; 
+    }
+
+.nav-external {
+    background-color: #4aaaa5;
+}
+
+
+main {
+    background-color: white;
 }
 
 textarea {
-  resize: none;
+    resize: none;
+}
+
+.contact-button {
+    width: 7.rem;
+    height: 2.70rem;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  
+    body {
+        background-image: url("../images/gravel.png");
+        
+    }
+
+    main {
+        width: 85%;
+        border: 1px solid #cccccc;
+    }
+
+    .navbar, .navbar-brand {
+        padding: 0;
+        background-color: white;
+    }
+
+    #nav-external {
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    }
+
+    nav {
+        max-width: 85%;
+    }
+
+    h1 {
+        color: white;
+        background-color: #4aaaa5;
+    }
 }
