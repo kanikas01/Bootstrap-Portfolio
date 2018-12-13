@@ -139,7 +139,9 @@ textarea {
     }
 
     .navbar, .navbar-brand {
-        padding: 0;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
         background-color: white;
     }
 
@@ -174,5 +176,7 @@ textarea {
 
     h1 {
         width: 17rem;
+        padding-top: 29px;
+        padding-bottom: 29px;
     }
 }
