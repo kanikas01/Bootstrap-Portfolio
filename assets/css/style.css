@@ -56,6 +56,11 @@ p > a {
     color: #4aaaa5;
 }
 
+hr {
+    color: #dddddd;
+    border: 1.5px solid !important;
+}
+
 nav {
     color: white !important;
     background-color: #4aaaa5 !important;
