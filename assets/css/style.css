@@ -52,6 +52,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+p {
+    line-height: 2rem;
+}
+
 p > a {
     color: #4aaaa5;
 }
