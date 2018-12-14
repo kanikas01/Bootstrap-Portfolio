@@ -141,6 +141,10 @@ textarea {
     main {
         width: 85%;
         border: 1px solid #cccccc;
+        overflow: auto;
+        padding: 1rem;
+        padding-left: 3rem;
+        margin-bottom: 7rem;
     }
 
     .navbar, .navbar-brand {
@@ -177,6 +181,7 @@ textarea {
 
     .portfolio-row {
         justify-content: unset;
+        align-content: flex-start;
     }
 
     h1 {
