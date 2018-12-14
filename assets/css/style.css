@@ -181,7 +181,7 @@ textarea {
 
     .portfolio-row {
         justify-content: unset;
-        align-content: flex-start;
+        float: left;
     }
 
     h1 {
